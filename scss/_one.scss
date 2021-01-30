@@ -1,0 +1,77 @@
+.section_one {
+    background-color: #ECF5FF;
+    padding: 100px 0px;
+    .container {
+        display: flex;
+        flex-direction: column;
+        .suptitle {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            /* or 150% */
+            font-family: 'Livvic', 'Semi-bold';
+            text-align: center;
+            margin: 0px 0px 20px 0px;
+            color: #459EFF;  
+        }
+        .title {
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 51px;
+            /* or 150% */
+            font-family: 'Livvic', 'Semi-bold';
+            text-align: center;
+            margin: 0px 0px 30px 0px;
+            color: #222A41; 
+        }
+        .description {
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 24px;
+            /* or 160% */
+            font-family: 'Livvic', 'Semi-bold';
+            text-align: center;
+            margin: 0px 0px 48px 0px;
+            color: #6D7783; 
+            max-width: 640px;
+            margin: auto;
+            margin-bottom: 48px;
+        }
+        .blocks {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .card {
+                display: flex;
+                flex-direction: column;
+                padding: 43px 0px 40px 0px;
+                background-color: #fff;
+                box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+                border-radius: 18px;
+                margin: 0px 15px;
+                width: 253px;
+                .number {
+                    font-weight: 200;
+                    font-size: 48px;
+                    line-height: 56px;
+                    /* identical to box height, or 117% */
+                    font-family: 'Livvic', 'Semi-bold';
+                    text-align: center;
+                    
+                    color: #459EFF; 
+                }
+                .description_card {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 27px;
+                    /* identical to box height, or 150% */
+                    font-family: 'Livvic', 'Semi-bold';
+                    text-align: center;
+                    
+                    color: #222A41;
+                }
+            }
+        }
+    }
+}

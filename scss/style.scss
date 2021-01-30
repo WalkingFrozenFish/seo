@@ -1,0 +1,44 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@200;400;500;600&display=swap');
+// font-family: 'Livvic', sans-serif;
+// Extra-light 200
+// Regular 400
+// Medium 500
+// Semi-bold 600
+
+
+// Sections
+@import "_topline";
+@import "_hero.scss";
+@import "_one.scss";
+@import "_services.scss";
+@import "_cases.scss";
+@import "_word.scss";
+@import "_send_message.scss";
+@import "_footer.scss";
+
+
+// Main Styles
+.container {
+    max-width: 980px;
+    margin: auto;
+    /* Landscape tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+        max-width: 900px;
+    }
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+        max-width: 700px;
+    }
+
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+        max-width: 700px;
+    }
+
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+        max-width: 450px;
+    }
+}
+

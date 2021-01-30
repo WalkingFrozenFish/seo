@@ -1,0 +1,106 @@
+.send_message {
+    padding: 100px 0px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left_block {
+            width: 393px;
+            h2 {
+                font-family: Livvic;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 34px;
+                line-height: 51px;
+                /* or 150% */
+                
+                
+                color: #233D63;
+            }
+            p {
+                font-family: Livvic;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 24px;
+                /* or 160% */
+                color: #6D7783;
+                .telephone {
+                    font-family: Livvic;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                    
+                    
+                    color: #222A41;
+                    a {
+                        font-family: Livvic;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 24px;
+                        /* or 160% */
+                        
+                        
+                        color: #459EFF;     
+                    }    
+                }
+            }
+        }
+        .right_block {
+            width: 474px;
+            form {
+
+                #email {
+                    ::placeholder {
+                        font-family: Livvic;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 24px;
+                        /* identical to box height, or 160% */
+
+
+                        color: #6D7783;
+                    }
+                    margin-bottom: 30px;
+                    border: none;
+                    padding: 10px;
+                    border-bottom: #AEB7C1 2px solid;
+                    width: 450px;
+                }
+                #phone {
+                    margin-bottom: 30px;
+                    border: none;
+                    padding: 10px;
+                    border-bottom: #AEB7C1 2px solid;
+                    width: 450px;
+                }
+                #message {
+                    margin-bottom: 30px;
+                    border: none;
+                    padding: 10px;
+                    border-bottom: #AEB7C1 2px solid;
+                    width: 450px;
+                }
+                button {
+                    font-family: Livvic;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                    
+                    text-align: center;
+                    background-color: #459EFF;
+                    padding: 13px 17px;
+                    border: none;
+                    border-radius: 30px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

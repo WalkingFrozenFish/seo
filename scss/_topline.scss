@@ -1,0 +1,65 @@
+.section_topline {
+    background-color: #459EFF;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width: 480px) {
+            // display: flex;
+            justify-content: space-around;
+        }
+        .contacts {
+            @media (max-width: 480px) {
+                padding: 10px 0px;
+            }
+            a {
+                font-family: 'Livvic', 'Semi-bold';
+                font-size: 13px;
+                text-decoration: none;
+                color: #FFFFFF;
+                &:first-child {
+                    background-image: url("../img/icons/home/mail.png");
+                    background-repeat: no-repeat;
+                    padding-left: 25px;
+                    background-position: 0px 3px;
+                    margin-right: 16px;
+                    
+                }
+                &:last-child {
+                    background-image: url("../img/icons/home/phone.png");
+                    background-repeat: no-repeat;
+                    padding-left: 20px;
+                    background-position: 0px 1px;
+                }
+                
+            }
+        }
+        .social {
+            display: flex;
+            align-items: center;
+            @media (max-width: 480px) {
+                display: none;
+            }
+            p {
+                font-family: 'Livvic', 'Semi-bold';
+                font-size: 13px;
+                color: #FFFFFF;
+                margin-right: 20px;
+            }
+            a {
+                font-family: 'Livvic', 'Semi-bold';
+                font-size: 13px;
+                text-decoration: none;
+                color: #FFFFFF;
+                margin-right: 20px;
+                img {
+                    color: #000;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,137 @@
+.word {
+    background-color: #ECF5FF;
+    padding: 98px 0px 100px 0px;
+    .container {
+
+        .suptitle {
+            font-family: Livvic;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height, or 150% */
+            
+            margin-bottom: 12px;
+            color: #459EFF;
+            
+        }
+        .title {
+            font-family: Livvic;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 51px;
+            /* identical to box height, or 150% */
+            
+            margin-bottom: 30px;
+            color: #222A41;
+        }
+        .main_block {
+            display: flex;
+            // justify-content: space-around;
+            margin-bottom: 60px;
+            .block_1 {
+    
+                .item {
+                    padding: 30px;
+                    background-color: #fff;
+                    border-radius: 8px;
+                    margin: 15px;
+                    p {
+                        font-family: Livvic;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 24px;
+                        /* or 160% */
+                        max-width: 376px;
+                        margin: 0px 0px 10px 0px;
+                        color: #6D7783;   
+                    }
+                    .profile {
+                        display: flex;
+                        align-items: center;
+                        .photo {
+                            border-radius: 50px;
+                            width: 60px;
+                            height: 60px;
+                            background: #B4B4B4;
+                            border: 2px solid #FFFFFF;
+                            box-shadow: 2px 5px 4px rgba(49, 88, 114, 0.25); 
+                        }
+                        .names {
+                            padding-left: 30px;
+                            p {
+                                font-family: Livvic;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 15px;
+                                line-height: 24px;
+                                /* or 160% */
+                                margin: 0;
+                                
+                                color: #000000;   
+                            }
+                        }
+                    }
+                }
+    
+            }
+            .block_2 {
+                position: relative;
+                top: -100px;
+                .item {
+                    padding: 30px;
+                    background-color: #fff;
+                    border-radius: 8px;
+                    margin: 15px;
+                    p {
+                        font-family: Livvic;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 24px;
+                        /* or 160% */
+                        max-width: 376px;
+                        margin: 0px 0px 10px 0px;
+                        color: #6D7783;   
+                    }
+                    .profile {
+                        display: flex;
+                        align-items: center;
+                        .photo {
+                            border-radius: 50px;
+                            width: 60px;
+                            height: 60px;
+                            background: #B4B4B4;
+                            border: 2px solid #FFFFFF;
+                            box-shadow: 2px 5px 4px rgba(49, 88, 114, 0.25); 
+                        }
+                        .names {
+                            padding-left: 30px;
+                            p {
+                                font-family: Livvic;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 15px;
+                                line-height: 24px;
+                                /* or 160% */
+                                margin: 0;
+                                
+                                color: #000000;   
+                            }
+                        }
+                    }
+                }
+    
+            }
+        }
+
+        .lables {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}

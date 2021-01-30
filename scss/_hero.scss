@@ -1,0 +1,72 @@
+.section_hero {
+    max-width: 1333px;
+    // width: 100vw;
+    background-image: url(/img/hero_illustration.png);
+    background-repeat: no-repeat;
+    background-position: right 100px;
+    margin: auto;
+    background-size: 596px 466px;
+    padding-bottom: 100px;
+    .container {
+        
+        display: block;
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 25px 0px;   
+            
+            ul {
+                display: flex;
+                list-style: none;
+                li {
+                    margin-right: 30px;
+                    a {
+                        font-size: 16px;
+                        font-family: 'Livvic', 'Semi-bold';
+                        font-weight: medium;
+                        text-decoration: none;
+                        color: #233D63;
+                    }
+                    &:last-child {
+                        margin-right: 0px;
+                        a {
+                            padding: 8px 17px;
+                            background-color: #459EFF;
+                            color: #ffffff;
+                            border-radius: 40px;
+                        }
+                    }
+                }
+            }
+        }
+        .content {
+            padding: 70px 0px 100px 0px;
+            h1 {
+                font-size: 48px;
+                font-family: 'Livvic', 'Semi-bold';
+                font-weight: normal;
+                margin-bottom: 30px;
+                color: #222A41;
+                line-height: 54px;
+            }
+            p {
+                font-size: 18px;
+                font-family: 'Livvic', 'Semi-bold';
+                font-weight: medium;
+                margin-bottom: 43px;
+                color: #222A41; 
+            }
+            a {
+                padding: 13px 32px;
+                background-color: #459EFF;
+                color: #ffffff;
+                border-radius: 40px;
+                font-size: 16px;
+                font-weight: normal;
+                text-decoration: none;
+                font-family: 'Livvic', 'Semi-bold';
+            }
+        }
+    }
+}
